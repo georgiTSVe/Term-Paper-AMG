@@ -1,0 +1,109 @@
+.main_info{columns: 3; column-gap: 50px; column-rule: 5px white double;}
+.diff{columns: 2; column-rule: 50px;}
+body{
+    background-color: rgb(56, 56, 56);
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+h1,p,h2,h3,h4,figcaption,.diff,.table{
+    color: white;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: lightcoral;
+    width: 20px 0px 20px 0px;
+    box-shadow: 6px 6px 8px;
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 28px;
+}
+.h1{
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+}
+#first{
+    display: inline-block;
+    align-items: center;
+    margin-left: 5%
+}
+.main_info{
+    align-items: center;
+    padding-left: 17px;
+}
+#second,#third{
+    display: border-box;
+    width: 44%;
+    padding: 0;
+    vertical-align: top;
+    float: left;
+    margin-left: 6%;
+    margin-bottom: 6%;}
+
+#second{
+    padding-left: 0%;
+    padding-right: 1%;
+    margin-left: 6%;
+    margin: 0;
+}
+#third{
+    padding-left: 6%;
+    padding-right: 1%;
+    padding-top: 1%;
+    margin: 0;
+    margin-bottom: 5%;
+}
+h2,.h2,h3,.h3,h4,#info,#finish,a{
+    padding-left:1%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  } 
+table{
+    margin: auto;
+    color: lightcoral;
+}
+table,th,td{
+    border: 2px; color: lightcoral;  border-collapse: collapse; padding: 6px;
+}
+td{
+    text-align: center;
+    vertical-align: baseline;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+a{
+    color: lightcoral;
+    text-decoration: none;
+}
+.cars{
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-left: 1%;
+}
+#seventh,.table{
+    display: border-box;
+    width: 49%;
+    padding: 1%;
+    vertical-align: top;
+    float: left;
+}
+#seventh{
+    padding-left: 1%;
+}
+#info,a,#finish{
+    padding-left: 0%;
+    padding-top: 22%;
+
+}
+#finish{
+    padding-bottom: 0%;
+    padding-left: 1%;
+}
